@@ -7,7 +7,7 @@
      C     *entry        plist
      C                   parm                    ppdat
       *
-     C                   EVAL      NBwR = 55
+     C                   EVAL      NBR = 55
      C                   EXSR      FIB
      C                   DSPLY     RESULT
       *--------------------------------------------------------------*

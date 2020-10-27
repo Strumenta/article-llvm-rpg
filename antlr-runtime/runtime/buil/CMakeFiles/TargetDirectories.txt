@@ -1,0 +1,9 @@
+/home/madytyoo/CLionProjects/rpg/antlr-runtime/runtime/buil/CMakeFiles/edit_cache.dir
+/home/madytyoo/CLionProjects/rpg/antlr-runtime/runtime/buil/CMakeFiles/rebuild_cache.dir
+/home/madytyoo/CLionProjects/rpg/antlr-runtime/runtime/buil/CMakeFiles/antlr4_shared.dir
+/home/madytyoo/CLionProjects/rpg/antlr-runtime/runtime/buil/CMakeFiles/install.dir
+/home/madytyoo/CLionProjects/rpg/antlr-runtime/runtime/buil/CMakeFiles/list_install_components.dir
+/home/madytyoo/CLionProjects/rpg/antlr-runtime/runtime/buil/CMakeFiles/antlr4_static.dir
+/home/madytyoo/CLionProjects/rpg/antlr-runtime/runtime/buil/CMakeFiles/install/local.dir
+/home/madytyoo/CLionProjects/rpg/antlr-runtime/runtime/buil/CMakeFiles/install/strip.dir
+/home/madytyoo/CLionProjects/rpg/antlr-runtime/runtime/buil/CMakeFiles/make_lib_output_dir.dir

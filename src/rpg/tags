@@ -1,0 +1,242 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASSIGNMENT	ast.h	60;"	e	enum:Token::Type
+AST	ast.h	14;"	x
+AST	ast.h	415;"	c
+ArrayDeclarator	symbtab.h	64;"	c	inherits:SymbolType
+AssignmentStatement	ast.h	27;"	x
+AssignmentStatement	ast.h	318;"	c	inherits:Statement
+CALLS	ast.h	61;"	e	enum:Token::Type
+ComparisionExpression	ast.h	144;"	c	inherits:Expression
+ComparisionExpression	ast.h	21;"	x
+CompileLayer	rpgjit.h	25;"	m	class:llvm::orc::RpgJIT	access:private
+Compiler	compiler.h	15;"	c
+Ctx	rpgjit.h	29;"	m	class:llvm::orc::RpgJIT	access:private
+DECIMAL	ast.h	52;"	e	enum:Token::Type
+DIVIDE	ast.h	57;"	e	enum:Token::Type
+DL	rpgjit.h	27;"	m	class:llvm::orc::RpgJIT	access:private
+DebugInfo	generator.h	16;"	s
+DecimalLiteral	ast.h	16;"	x
+DecimalLiteral	ast.h	258;"	c	inherits:Expression
+EQUAL	ast.h	66;"	e	enum:Token::Type
+ES	rpgjit.h	23;"	m	class:llvm::orc::RpgJIT	access:private
+EqualExpression	ast.h	110;"	c	inherits:Expression
+EqualExpression	ast.h	20;"	x
+Expression	ast.h	102;"	c	inherits:Node
+FOR	ast.h	65;"	e	enum:Token::Type
+ForStatement	ast.h	24;"	x
+ForStatement	ast.h	387;"	c	inherits:Statement
+FunctionDeclarator	symbtab.h	230;"	c	inherits:SymbolType
+FunctionDeclarator	symbtab.h	85;"	x
+GE	ast.h	67;"	e	enum:Token::Type
+GT	ast.h	67;"	e	enum:Token::Type
+Generator	ast.h	30;"	c
+GeneratorLLVM	generator.h	23;"	c	inherits:Generator
+INT	ast.h	51;"	e	enum:Token::Type
+Identifier	ast.h	18;"	x
+Identifier	ast.h	273;"	c	inherits:Expression
+IntegerLiteral	ast.h	15;"	x
+IntegerLiteral	ast.h	246;"	c	inherits:Expression
+RpgJIT	rpgjit.h	21;"	c	namespace:llvm::orc
+LE	ast.h	67;"	e	enum:Token::Type
+LT	ast.h	67;"	e	enum:Token::Type
+LexicalBlocks	generator.h	92;"	m	class:GeneratorLLVM	access:private
+LogMessage	log.h	22;"	c
+MINUS	ast.h	55;"	e	enum:Token::Type
+MULTIPLY	ast.h	56;"	e	enum:Token::Type
+MainJD	rpgjit.h	31;"	m	class:llvm::orc::RpgJIT	access:private
+Mangle	rpgjit.h	28;"	m	class:llvm::orc::RpgJIT	access:private
+MathExpression	ast.h	197;"	c	inherits:Expression
+MathExpression	ast.h	19;"	x
+NE	ast.h	67;"	e	enum:Token::Type
+Node	ast.h	81;"	c
+OTHER	ast.h	64;"	e	enum:Token::Type
+ObjectLayer	rpgjit.h	24;"	m	class:llvm::orc::RpgJIT	access:private
+PLUS	ast.h	54;"	e	enum:Token::Type
+ParamDeclaration	symbtab.h	220;"	c
+RESOLVED	symbtab.h	91;"	e	enum:Symbol::State
+RpgDeclarationVisitor	compiler.h	36;"	x
+RpgDeclarationVisitor	declaration.h	46;"	c	inherits:antlrcpprpg::RpgParserBaseVisitor
+RpgCodeVisitor	compiler.h	37;"	x
+RpgCodeVisitor	parser.h	14;"	c	inherits:antlrcpprpg::RpgParserBaseVisitor
+RpgSymbolFactory	declaration.h	17;"	c
+SELECT	ast.h	62;"	e	enum:Token::Type
+STRING	ast.h	53;"	e	enum:Token::Type
+SUBROUTINE	ast.h	59;"	e	enum:Token::Type
+SYMBOL	ast.h	58;"	e	enum:Token::Type
+SelectOtherClause	ast.h	355;"	c	inherits:Statement
+SelectStatement	ast.h	23;"	x
+SelectStatement	ast.h	364;"	c	inherits:Statement
+SelectWhenClause	ast.h	340;"	c	inherits:Statement
+State	symbtab.h	90;"	g	class:Symbol	access:public
+Statement	ast.h	22;"	x
+Statement	ast.h	284;"	c	inherits:Node
+StringLiteral	ast.h	17;"	x
+StringLiteral	ast.h	268;"	c	inherits:Expression
+StructDeclarator	symbtab.h	190;"	c	inherits:SymbolType
+StructDeclarator	symbtab.h	84;"	x
+SubroutineDeclaration	ast.h	25;"	x
+SubroutineDeclaration	ast.h	290;"	c	inherits:Statement
+SubroutineInvocation	ast.h	26;"	x
+SubroutineInvocation	ast.h	304;"	c	inherits:Statement
+Symbol	ast.h	12;"	x
+Symbol	symbtab.h	88;"	c
+SymbolSpecifier	symbtab.h	25;"	c	inherits:SymbolType
+SymbolTable	ast.h	13;"	x
+SymbolTable	symbtab.h	250;"	c
+SymbolType	symbtab.h	12;"	c
+Token	ast.h	48;"	c
+Type	ast.h	50;"	g	class:Token	access:public
+UNRESOLVED	symbtab.h	92;"	e	enum:Symbol::State
+WHEN	ast.h	63;"	e	enum:Token::Type
+__nullstream	log.h	20;"	v
+_end	ast.h	411;"	m	class:ForStatement	access:private
+_expression	ast.h	336;"	m	class:AssignmentStatement	access:private
+_expression	ast.h	353;"	m	class:SelectWhenClause	access:private
+_left	ast.h	141;"	m	class:EqualExpression	access:private
+_left	ast.h	191;"	m	class:ComparisionExpression	access:private
+_left	ast.h	242;"	m	class:MathExpression	access:private
+_line	ast.h	97;"	m	class:Node	access:private
+_name	ast.h	301;"	m	class:SubroutineDeclaration	access:private
+_name	ast.h	315;"	m	class:SubroutineInvocation	access:private
+_other	ast.h	384;"	m	class:SelectStatement	access:private
+_right	ast.h	142;"	m	class:EqualExpression	access:private
+_right	ast.h	192;"	m	class:ComparisionExpression	access:private
+_right	ast.h	243;"	m	class:MathExpression	access:private
+_start	ast.h	410;"	m	class:ForStatement	access:private
+_by	ast.h	412;"	m	class:ForStatement	access:private
+_target	ast.h	335;"	m	class:AssignmentStatement	access:private
+_text	ast.h	78;"	m	class:Token	access:private
+_token	ast.h	98;"	m	class:Node	access:private
+_type	ast.h	77;"	m	class:Token	access:private
+_when	ast.h	383;"	m	class:SelectStatement	access:private
+accept	ast.h	94;"	p	class:Node	access:public	implementation:pure virtual
+add	symbtab.h	257;"	p	class:SymbolTable	access:public
+addDeclarator	symbtab.h	146;"	p	class:Symbol	access:public
+addDeclarator	symbtab.h	147;"	p	class:Symbol	access:public
+addDeclarator	symbtab.h	148;"	p	class:Symbol	access:public
+addSource	compiler.h	25;"	p	class:Compiler	access:public
+addSpecifier	symbtab.h	145;"	p	class:Symbol	access:public
+args	symbtab.h	247;"	m	class:FunctionDeclarator	access:private
+ast	compiler.h	34;"	m	class:Compiler	access:private
+builder	generator.h	98;"	m	class:GeneratorLLVM	access:private
+clone	symbtab.h	19;"	p	class:SymbolType	access:public	implementation:pure virtual
+compile	compiler.h	24;"	p	class:Compiler	access:public
+compiler	declaration.h	37;"	m	class:RpgSymbolFactory	access:private
+compiler	declaration.h	62;"	m	class:RpgDeclarationVisitor	access:private
+compiler	parser.h	59;"	m	class:RpgCodeVisitor	access:private
+create	declaration.h	22;"	p	class:RpgSymbolFactory	access:public
+create	declaration.h	23;"	p	class:RpgSymbolFactory	access:public
+create	declaration.h	24;"	p	class:RpgSymbolFactory	access:public
+create	declaration.h	25;"	p	class:RpgSymbolFactory	access:public
+create	declaration.h	26;"	p	class:RpgSymbolFactory	access:public
+createFunctionType	generator.h	89;"	p	class:GeneratorLLVM	access:public
+debugBuilder	generator.h	101;"	m	class:GeneratorLLVM	access:private
+debugInfo	generator.h	102;"	m	class:GeneratorLLVM	typeref:struct:GeneratorLLVM::DebugInfo	access:private
+decimals	symbtab.h	59;"	m	class:SymbolSpecifier	access:private
+declare	ast.h	32;"	p	class:Generator	access:public	implementation:pure virtual
+declare	generator.h	69;"	p	class:GeneratorLLVM	access:public	implementation:virtual
+dump	generator.h	67;"	p	class:GeneratorLLVM	access:public
+dump	symbtab.h	20;"	p	class:SymbolType	access:public	implementation:pure virtual
+emitDebugInfo	compiler.h	31;"	m	class:Compiler	access:private
+emitDebugInfo	generator.h	95;"	m	class:GeneratorLLVM	access:private
+emitLocation	generator.h	93;"	p	class:GeneratorLLVM	access:private
+enable	log.h	25;"	m	class:LogMessage	access:private
+enable	parser.cpp	11;"	m	class:LogMessage	file:
+fields	symbtab.h	218;"	m	class:StructDeclarator	access:private
+get	symbtab.h	262;"	p	class:SymbolTable	access:public
+getDebugType	generator.h	88;"	p	class:GeneratorLLVM	access:public
+getDecimals	symbtab.h	34;"	p	class:SymbolSpecifier	access:public
+getLine	symbtab.h	108;"	p	class:Symbol	access:public
+getName	symbtab.h	109;"	p	class:Symbol	access:public
+getOffset	symbtab.h	139;"	p	class:Symbol	access:public
+getRef	symbtab.h	134;"	p	class:Symbol	access:public
+getSize	symbtab.h	33;"	p	class:SymbolSpecifier	access:public
+getSize	symbtab.h	68;"	p	class:ArrayDeclarator	access:public
+getStorage	symbtab.h	35;"	p	class:SymbolSpecifier	access:public
+getValue	symbtab.h	36;"	p	class:SymbolSpecifier	access:public
+initializeRunTime	generator.h	71;"	p	class:GeneratorLLVM	access:public
+itype	generator.h	18;"	m	struct:DebugInfo	access:public
+level	log.h	23;"	m	class:LogMessage	access:private
+line	symbtab.h	182;"	m	class:Symbol	access:private
+llvmContext	generator.h	96;"	m	class:GeneratorLLVM	access:private
+module	generator.h	97;"	m	class:GeneratorLLVM	access:private
+name	symbtab.h	183;"	m	class:Symbol	access:private
+name	symbtab.h	226;"	m	class:ParamDeclaration	access:private
+nodes	ast.h	428;"	m	class:AST	access:private
+nodes	ast.h	99;"	m	class:Node	access:private
+nullstream	log.h	13;"	s	inherits:std::ostream
+offset	symbtab.h	186;"	m	class:Symbol	access:private
+ofs	log.h	24;"	m	class:LogMessage	access:private
+override	declaration.h	53;"	m	class:RpgDeclarationVisitor	access:public
+override	declaration.h	54;"	m	class:RpgDeclarationVisitor	access:public
+override	declaration.h	55;"	m	class:RpgDeclarationVisitor	access:public
+override	declaration.h	57;"	m	class:RpgDeclarationVisitor	access:public
+override	declaration.h	59;"	m	class:RpgDeclarationVisitor	access:public
+override	generator.h	72;"	m	class:GeneratorLLVM	access:public
+override	generator.h	73;"	m	class:GeneratorLLVM	access:public
+override	generator.h	74;"	m	class:GeneratorLLVM	access:public
+override	generator.h	75;"	m	class:GeneratorLLVM	access:public
+override	generator.h	76;"	m	class:GeneratorLLVM	access:public
+override	generator.h	77;"	m	class:GeneratorLLVM	access:public
+override	generator.h	79;"	m	class:GeneratorLLVM	access:public
+override	generator.h	81;"	m	class:GeneratorLLVM	access:public
+override	generator.h	82;"	m	class:GeneratorLLVM	access:public
+override	generator.h	83;"	m	class:GeneratorLLVM	access:public
+override	generator.h	84;"	m	class:GeneratorLLVM	access:public
+override	generator.h	85;"	m	class:GeneratorLLVM	access:public
+override	generator.h	87;"	m	class:GeneratorLLVM	access:public
+override	parser.h	18;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	20;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	22;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	24;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	25;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	27;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	29;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	30;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	31;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	32;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	35;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	36;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	37;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	38;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	40;"	m	class:RpgCodeVisitor	access:public
+override	parser.h	41;"	m	class:RpgCodeVisitor	access:public
+parseExpression	parser.h	51;"	p	class:RpgCodeVisitor	access:public
+process	generator.h	70;"	p	class:GeneratorLLVM	access:public
+readSource	compiler.h	26;"	p	class:Compiler	access:public
+ref	symbtab.h	185;"	m	class:Symbol	access:private
+resolve	symbtab.h	278;"	p	class:SymbolTable	access:public
+scope	parser.h	58;"	m	class:RpgCodeVisitor	access:private
+setOffset	symbtab.h	137;"	p	class:Symbol	access:public
+setRef	symbtab.h	135;"	p	class:Symbol	access:public
+setValue	symbtab.h	37;"	p	class:SymbolSpecifier	access:public
+size	symbtab.h	58;"	m	class:SymbolSpecifier	access:private
+size	symbtab.h	80;"	m	class:ArrayDeclarator	access:private
+sources	compiler.h	32;"	m	class:Compiler	access:private
+state	symbtab.h	187;"	m	class:Symbol	access:private
+storage	symbtab.h	60;"	m	class:SymbolSpecifier	access:private
+symbolFactory	declaration.h	63;"	m	class:RpgDeclarationVisitor	access:private
+symbolTable	compiler.h	33;"	m	class:Compiler	access:private
+symbolTable	symbtab.h	288;"	m	class:SymbolTable	access:private
+type	symbtab.h	184;"	m	class:Symbol	access:private
+type	symbtab.h	227;"	m	class:ParamDeclaration	access:private
+unit	generator.h	17;"	m	struct:DebugInfo	access:public
+value	symbtab.h	61;"	m	class:SymbolSpecifier	access:private
+visit	ast.h	33;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	34;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	35;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	36;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	37;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	38;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	39;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	40;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	41;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	42;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	43;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	44;"	p	class:Generator	access:public	implementation:pure virtual
+visit	ast.h	45;"	p	class:Generator	access:public	implementation:pure virtual

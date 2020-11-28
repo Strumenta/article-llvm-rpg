@@ -90,7 +90,7 @@ public:
     const std::string &getValue() const { return _token.getValue(); }
     virtual  std::string toString() { return _token.toString(); }
 
-    int addNode(std::shared_ptr<Node> node) { nodes.push_back(node); }
+    int addNode(std::shared_ptr<Node> node) { nodes.push_back(node); return nodes.size(); }
 
     const std::vector<std::shared_ptr<Node>> &getNodes() const { return nodes; }
 
@@ -107,7 +107,7 @@ class Expression : public Node {
 public:
     Expression(int line, const Token &token) : Node(line, token) {}
 
-    llvm::Value *accept(Generator *v, void *param = nullptr) override {  }
+    llvm::Value *accept(Generator *v, void *param = nullptr) override {  return nullptr; }
 
 };
 

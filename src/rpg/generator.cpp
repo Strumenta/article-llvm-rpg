@@ -469,6 +469,8 @@ llvm::Value* GeneratorLLVM::visit(SelectStatement *select,void *param) {
     /* Emits the ENDSL block */
     selectBlock->getBasicBlockList().push_back(selectEnd);
     builder->SetInsertPoint(selectEnd);
+
+	return nullptr;
 }
 
 /**
@@ -509,6 +511,7 @@ llvm::Value *GeneratorLLVM::visit(ForStatement *loop,void *param) {
     /* Restore the insert point the end of the loop */
     builder->SetInsertPoint(exitLoop);
 
+    return nullptr;
 }
 
 llvm::Value *GeneratorLLVM::visit(DisplayStatement *dsply,void *param) {

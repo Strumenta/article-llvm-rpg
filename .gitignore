@@ -1,0 +1,21 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/x64/Debug
+/.vs/rpg/v16
+/CMakeFiles/3.15.2
+/CMakeFiles
+/rpg.dir/Debug/rpg.tlog
+/rpg.dir/Debug
+/cmake_install.cmake
+/CMakeCache.txt
+/ALL_BUILD.vcxproj.user
+/ALL_BUILD.vcxproj.filters
+/ALL_BUILD.vcxproj
+/ZERO_CHECK.vcxproj.filters
+/ZERO_CHECK.vcxproj
+/rpg.vcxproj.user
+/rpg.vcxproj.filters
+/rpg.vcxproj
+/rpg.sln

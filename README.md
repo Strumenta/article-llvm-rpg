@@ -1,4 +1,7 @@
 # A tutorial on how to write a compiler using LLVM
+
+This is the companion repository to the article at https://tomassetti.me/a-tutorial-on-how-to-write-a-compiler-using-llvm/.
+
 The project requires the LLVM librariaries installed  see https://llvm.org/docs/GettingStarted.html#getting-started-with-llvm.
   
 ## Project Structure
